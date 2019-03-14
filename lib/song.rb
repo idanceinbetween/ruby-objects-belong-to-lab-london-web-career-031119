@@ -4,13 +4,16 @@ class Song
 
   attr_accessor :title, :artist
 
-  # def initialize(title, artist)
-  #     @title = title
-  #     @artist = artist
-  # end
-  #
+  @@all = []
+
+  def initialize#(title, artist)
+      @title = title
+      @artist = Artist.name
+      @@all << self
+  end
+
   # def artist
-  #   @artist.name
+  #   @artist
   # end
 
 end

@@ -2,7 +2,7 @@ require 'pry'
 
 class Post
   attr_accessor :title, :author
-  #
+  
   # def initialize
   #   @title = title
   #   @author = author
@@ -18,6 +18,3 @@ class Post
   # end
 
 end
-
-binding.pry
-puts "omg."
